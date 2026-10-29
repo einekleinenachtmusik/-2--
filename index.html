@@ -1,39 +1,39 @@
 ﻿<!DOCTYPE html>
 <html lang="ko">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>제2종 전기차량 참고구술 암기장 (랜덤 & 60초 타이머)</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+<머리>
+ <meta charset=>UTF-8">
+ <meta 이름="viewport" 콘텐츠="width=장치 너비, 초기 스케일=1.0">
+ <title>제2종 전기차량 참고구술 암기장 (랜덤 & 60초 타이머)</title>
+    <스타일.>
+ * {
+ 박스 sizing: 테두리 박스;
+ 여백: 0;
+ 패딩: 0;
+ 폰트 패밀리: '프렌다드', -애플 시스템, 블링크맥시스템폰트, "세고 UI", 로보토, 산세리프;
         }
 
-        body {
-            background-color: #f5f7fa;
-            color: #333;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-            padding: 12px;
-        }
+ 몸 {
+ 배경색: #f5f7fa;
+ 색상: #333;
+ 디스플레이: 플렉스;
+ 정당화 내용: 중심;
+ 정렬 items: 중심;
+ 최소 높이: 100vh;
+ 패딩: 12 px;
+ }
 
-        .container {
-            background: #ffffff;
-            width: 100%;
-            max-width: 600px;
-            padding: 16px;
-            border-radius: 16px;
-            box-shadow: 0 10px 25px rgba(0,0,0,0.08);
-        }
+ .container {
+ 배경: #ffffff;
+ 너비: 100%;
+ 최대 너비: 600 px;
+ 패딩: 16 px;
+ 국경 radius: 16 px;
+ box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+ }
 
-        .header {
-            display: flex;
-            justify-content: space-between;
+ .header {
+ 디스플레이: 플렉스;
+ 정당화 내용: 공간 간;
             align-items: center;
             margin-bottom: 10px;
         }
@@ -425,9 +425,14 @@
                     q: "15-1. 1칸 동력 운전 불능 시는?",
                     a: "• M차 또는 M'차 배전반의 CN1, CN3 차단 확인\n * CN1:전·후진 제어 회로 차단기, CN3:동력 제어 회로 차단기, CN2:회생제동 제어 회로 차단기."
                 },
+                {   id: "18-1",
+                    q: "18-1. BVN1 회로 차단기 복귀 불능 시 조치?",
+                    a: EBCOS 취급하면 비상제동은 완해되지만 BR 여자 불능으로 동력 운전이 불가능하고,\nZVR 무여자로 정차 시 출입문 취급 불능이며, 제동 제어 전원 차단으로 상용제동 불능임."
+                },
+        
                 {
-                    id: "18-1",
-                    q: "18-1. EBCOS취급으로 비상제동이 완해되는 경우는?",
+                    id: "19-1",
+                    q: "19-1. EBCOS취급으로 비상제동이 완해되는 경우는?",
                     a: "1) DSD불량으로 비상제동 완해 불능 시\n2) 전, 후부 운전실 RSOS정상위치 아닐 때\n3) MR압력 6.0kg/㎠이하 시\n4)전, 후부 운전실 EBS1,2 복귀 불능 시\n - EBCOS취급 시, 보안장치(ATS, ATC, DSD 등) 및 열차분리 시 비상제동이 체결되지 않으니 주의할것."
                 },
                 {
@@ -1026,7 +1031,7 @@
                 {
                     id: 81,
                     q: "81. DOS의 DCS(출입문 닫힘 스위치)접점 불량시 조치",
-                    a: "1) DCS 접점 불량 방향의 출입문을 연 후 DCS 취급하여 출입문이 닫히지 않으면 CrSNOFF 후 ON 취급\n2) 운행 중 DCS접점 불량 방향으로 승강장이 있는 경우 DOS 취급으로 출입문 개방 후,rSN OFF 후 ON 취급으로 전체 출입문 닫을 것\n3) 관제사 보고 후 지시하는 역까지 운행하고 회송 조치"
+                    a: "1) DCS 접점 불량 방향의 출입문을 연 후 DCS 취급하여 출입문이 닫히지 않으면 CrSNOFF 후 ON 취급\n2) 운행 중 DCS접점 불량 방향으로 승강장이 있는 경우 DOS 취급으로 출입문 개방 후,CrSN OFF 후 ON 취급으로 전체 출입문 닫을 것\n3) 관제사 보고 후 지시하는 역까지 운행하고 회송 조치"
                 },
 
             ];
